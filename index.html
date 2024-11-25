@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--This is the Ionicons link in google-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+
+<body class="bg-slate-900">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-purple-200 via-sky-200 to-sky-100 w-full sticky top-0 z-50">
+        <!-- Navbar -->
+        <nav class="flex justify-between px-6 py-4 items-center">
+            <div class="font-bold text-2xl">
+                <h1>Astrols</h1>
+            </div>
+            <!--Here the Navigation Menu -->
+            <div id="menu"
+                class="hidden flex-col lg:flex lg:flex-row lg:space-x-6 bg-white mx-4 mt-10 rounded-xl absolute left-2 right-2 top-8 lg:static lg:mt-0 lg:w-auto lg:bg-transparent lg:items-center shadow-lg lg:shadow-none ">
+                <ul class="flex flex-col lg:flex-row lg:space-x-6 text-zinc-700 space-y-4 lg:space-y-0 p-6 lg:p-0">
+                    <li><a href="#feature" class="hover:text-purple-700">Features</a></li>
+                    <li><a href="#solution" class="hover:text-purple-700">Solution</a></li>
+                    <li><a href="#reviews" class="hover:text-purple-700">Reviews</a></li>
+                    <li class="font-semibold">
+                        <a href="#" class="hover:text-purple-700">Premium
+                            <span class="bg-purple-200 text-purple-700 px-2 rounded-lg text-sm">new</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="px-6 lg:px-0 pb-8 lg:pb-0">
+                    <a href="#"
+                        class="block text-center bg-purple-800 text-white font-semibold px-4 py-2 rounded-3xl hover:bg-purple-900">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <!--This is the Mobile Menu Icon -->
+            <div id="menu-toggle" class="text-3xl cursor-pointer lg:hidden">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </nav>
+    </header>
+    <!--Here the main section-->
+    <section id="reviews" class="text-white  md:max-w-2xl lg:max-w-3xl mx-auto mt-20">
+        <div class="text-center">
+            <h1 class="text-5xl md:text-5xl lg:text-6xl font-serif font-semibold">Shaping a world with reimagination.
+            </h1>
+            <p class="mt-8 px-3 lg:px-0 text-zinc-300">Lorem ipsum, dolor sit amet consectetur elit. Voluptas fugiat
+                cupiditate minima quia, rem ut! Eius, sapiente quae ducimus molestias nam laboriosam quaerat esse sint,
+                corporis dignissimos maiores porro suscipit!</p>
+        </div>
+        <div class="text-center space-y-3 mt-12 mb-12 md:grid grid-cols-2 md:space-y-0 md:max-w-xl mx-auto">
+            <div class="mx-8">
+                <button
+                    class="bg-purple-600 flex w-full justify-center  text-white font-medium text-base px-5 py-2 rounded-2xl md:px-3 hover:scale-105 hover:bg-purple-400">Get
+                    started</button>
+            </div>
+            <div class="mx-8">
+                <button
+                    class="bg-zinc-600 flex w-full justify-center  text-white font-medium text-base px-5 py-2 rounded-2xl hover:scale-105 hover:bg-purple-400">Learn
+                    more</button>
+            </div>
+        </div>
+        <hr>
+        <div
+            class="grid md:grid-cols-3 w-full mt-6 mb-6 md:justify-between justify-center gap-y-4 text-center md:text-left">
+            <div class="space-y-2">
+                <h1 class="text-base font-bold">The lowest price</h1>
+                <p class="text-sm text-zinc-400">Some text here</p>
+            </div>
+            <div class="space-y-2">
+                <h1 class="text-base font-bold">The fastest on the market</h1>
+                <p class="text-sm text-zinc-400">Some text here</p>
+            </div>
+            <div class="space-y-2">
+                <h1 class="text-base font-bold">The most loved</h1>
+                <p class="text-sm text-zinc-400">Some text here</p>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 lg:max-w-6xl items-center mx-auto mt-10">
+        <div class="grayscale hover:grayscale-0">
+            <img src="https://pngimg.com/d/microsoft_PNG3.png" alt="Microsoft">
+        </div>
+        <div class="grayscale hover:grayscale-0 ">
+            <img class="w-32" src="https://freepnglogo.com/images/all_img/1707660649airbnb-logo-png.png" alt="airbnd">
+        </div>
+        <div class="grayscale hover:grayscale-0">
+            <img class="w-32"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png"
+                alt="Google">
+        </div>
+        <div class="grayscale hover:grayscale-0">
+            <img class="w-32" src="https://www.pngplay.com/wp-content/uploads/7/Customer-Logo-Transparent-PNG.png"
+                alt="Client image">
+        </div>
+        <div class="grayscale hover:grayscale-0">
+            <img class="w-32" src="https://loodibee.com/wp-content/uploads/Netflix-logo.png" alt="Netfkix logo">
+        </div>
+        <div class="grayscale hover:grayscale-0">
+            <img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png"
+                alt="Google Cloud">
+        </div>
+    </section>
+    <section>
+        <div class="mt-20 md:pl-20 text-white px-8 md:w-[600px] lg:w-[700px] space-y-7">
+            <h1 class="font-bold  text-2xl md:text-4xl">A technology-first approach to payments and finance</h1>
+            <p class="text-zinc-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ipsam saepe minima
+                veniam blanditiis, sequi unde odit fugiat sit optio, voluptatum libero rerum ut laboriosam? Vero quam
+                maiores architecto obcaecati!</p>
+        </div>
+    </section>
+    <!--Grid Card section here-->
+    <section id="feature">
+        <div
+            class=" grid sm:grid-cols-2 mx-6 md:mx-6  lg:grid-cols-4 text-white border max-w-6xl lg:mx-auto rounded-xl mt-14">
+            <div class="border rounded-l-lg group  p-8">
+                <img class="w-16" src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png" alt="Jameit icon">
+                <h1 class="font-bold text-xl pt-4 group-hover:text-orange-500">First feature</h1>
+                <p class="text-zinc-300 pt-3 text-sm">Neque Dolor, fugit non cum doloribus aperiam volupates nosturm.
+                </p>
+                <div class="flex items-center justify-between mt-8">
+                    <button class="group-hover:text-orange-500">Read more</button>
+                    <p><ion-icon class="group-hover:text-orange-500 group-hover:text-xl"
+                            name="arrow-forward"></ion-icon></p>
+                </div>
+            </div>
+            <div class="border group  p-8">
+                <img class="w-16" src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png" alt="Jameit icon">
+                <h1 class="font-bold text-xl pt-4 group-hover:text-orange-500">First feature</h1>
+                <p class="text-zinc-300 pt-3 text-sm">Neque Dolor, fugit non cum doloribus aperiam volupates nosturm.
+                </p>
+                <div class="flex items-center justify-between mt-8">
+                    <button class="group-hover:text-orange-500">Read more</button>
+                    <p><ion-icon class="group-hover:text-orange-500 group-hover:text-xl"
+                            name="arrow-forward"></ion-icon></p>
+                </div>
+            </div>
+            <div class="border group  p-8">
+                <img class="w-16" src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png" alt="Jameit icon">
+                <h1 class="font-bold text-xl pt-4 group-hover:text-orange-500">First feature</h1>
+                <p class="text-zinc-300 pt-3 text-sm">Neque Dolor, fugit non cum doloribus aperiam volupates nosturm.
+                </p>
+                <div class="flex items-center justify-between mt-8">
+                    <button class="group-hover:text-orange-500">Read more</button>
+                    <p><ion-icon class="group-hover:text-orange-500 group-hover:text-xl"
+                            name="arrow-forward"></ion-icon></p>
+                </div>
+            </div>
+            <div class="border rounded-lg group  p-8">
+                <img class="w-16" src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png" alt="Jameit icon">
+                <h1 class="font-bold text-xl pt-4 group-hover:text-orange-500">First feature</h1>
+                <p class="text-zinc-300 pt-3 text-sm">Neque Dolor, fugit non cum doloribus aperiam volupates nosturm.
+                </p>
+                <div class="flex items-center justify-between mt-8">
+                    <button class="group-hover:text-orange-500">Read more</button>
+                    <p><ion-icon class="group-hover:text-orange-500 group-hover:text-xl"
+                            name="arrow-forward"></ion-icon></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Details and icons section-->
+    <section id="solution">
+        <div class="grid md:grid-cols-2  mx-10 text-white max-w-6xl lg:mx-auto mt-32">
+            <div class="mt-4">
+                <h1 class="font-bold text-2xl md:text-3xl  lg:text-4xl pb-8">Nuxt development is carried out by
+                    passionate developers</h1>
+                <p class="pb-4 text-zinc-300">Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita
+                    at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                </p>
+                <p class="text-zinc-300 mb-8">Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur
+                    impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
+                </p>
+                <div class="flex items-center gap-4 mb-5">
+                    <i class="fa-brands fa-rocketchat text-2xl bg-orange-500 px-4 py-2 rounded-full"></i>
+                    <div>
+                        <p class="font-bold text-xl">Chat Anytime</p>
+                        <p class="text-sm text-zinc-300">Asperiores nemo possimus nesciunt quam mollitia.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex items-center gap-4 mt-6">
+                    <ion-icon class="text-3xl bg-orange-500 px-4 py-2 rounded-full" name="pin"></ion-icon>
+                    <div>
+                        <p class="font-bold text-xl">Real Time Location</p>
+                        <p class="text-sm text-zinc-300">Asperiores nemo possimus nesciunt quam mollitia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:ml-24 hover:scale-110">
+                <img src="https://astrolus.netlify.app/images/pie.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!--Fan section is start-->
+    <div class="mt-28 text-white font-serif font-bold text-4xl text-center">
+        <h1>We have some funs.</h1>
+    </div>
+    <section class="py-12">
+        <div class="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto px-6">
+            <div class="border-2 border-orange-300 hover:scale-105 hover:border-white shadow-lg bg-white hover:bg-black hover:text-white p-10 rounded-3xl">
+                <div class="flex gap-4 pb-8">
+                    <img class="h-12 rounded-full"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ0mSQZFBEVjYogvzVDROpc9xedSNj7nF1Lg&s"
+                        alt="">
+                    <div>
+                        <h1 class="font-bold text-xl">Anumpoma</h1>
+                        <p class="text-sm text-zinc-400 font-medium">Actor</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quia officiis veritatis temporibus cum expedita magni eaque! Fugiat ipsam dolorum expedita id est maiores fugit tempora quas maxime animi dolores distinctio qui quibusdam nobis ducimus non modi, quam.</p>
+            </div>
+            <div class="border-2 border-orange-300 hover:scale-105 hover:border-white shadow-lg bg-white hover:bg-black hover:text-white p-10 rounded-3xl">
+                <div class="flex gap-4 pb-8">
+                    <img class="h-12 rounded-full"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Virat_Kohli_portrait.jpg/966px-Virat_Kohli_portrait.jpg"
+                        alt="">
+                    <div>
+                        <h1 class="font-bold text-xl">Virat</h1>
+                        <p class="text-sm text-zinc-400 font-medium">Cricketer</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos modi laboriosam ullam obcaecati aut
+                    perspiciatis itaque ad velit? Consequatur voluptatum beatae nam sequi aliquam iusto tempora corrupti
+                    ratione architecto obcaecati? Incidunt debitis omnis perferendis.</p>
+            </div>
+            <div class="border-2 border-orange-300 hover:scale-105 hover:border-white shadow-lg bg-white hover:bg-black hover:text-white p-10 rounded-3xl">
+                <div class="flex gap-4 pb-8">
+                    <img class="h-12 rounded-full"
+                        src="https://d1hbpr09pwz0sk.cloudfront.net/profile_pic/rahul-baruri-a8c37276"
+                        alt="">
+                    <div>
+                        <h1 class="font-bold text-xl">Rahul</h1>
+                        <p class="text-sm text-zinc-400 font-medium">Softer Engineer</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quia officiis veritatis temporibus cum expedita magni eaque! Fugiat ipsam dolorum expedita id est maiores fugit tempora quas maxime animi dolores distinctio qui quibusdam nobis ducimus non modi, quam.</p>
+            </div>
+            <div class="border-2 border-orange-300 hover:scale-105 hover:border-white shadow-lg bg-white hover:bg-black hover:text-white p-10 rounded-3xl">
+                <div class="flex gap-4 pb-8">
+                    <img class="h-12 rounded-full"
+                        src="https://astrolus.netlify.app/images/avatars/avatar-2.webp"
+                        alt="">
+                    <div>
+                        <h1 class="font-bold text-xl">Jone</h1>
+                        <p class="text-sm text-zinc-400 font-medium">Front-end developer</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quia officiis veritatis temporibus cum expedita magni eaque! Fugiat ipsam dolorum expedita id est maiores fugit tempora quas maxime animi dolores distinctio qui quibusdam nobis ducimus non modi, quam.</p>
+            </div>
+            <div class="border-2 border-orange-300 hover:scale-105 hover:border-white shadow-lg bg-white hover:bg-black hover:text-white p-10 rounded-3xl">
+                <div class="flex gap-4 pb-8">
+                    <img class="h-12 rounded-full"
+                        src="https://astrolus.netlify.app/images/avatars/avatar-3.webp"
+                        alt="">
+                    <div>
+                        <h1 class="font-bold text-xl">Runa</h1>
+                        <p class="text-sm text-zinc-400 font-medium">Full stack developer</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quia officiis veritatis temporibus cum expedita magni eaque! Fugiat ipsam dolorum expedita id est maiores fugit tempora quas maxime animi dolores distinctio qui quibusdam nobis ducimus non modi, quam.</p>
+            </div>
+            <div class="border-2 border-orange-300 hover:scale-105 hover:border-white shadow-lg bg-white hover:bg-black hover:text-white p-10 rounded-3xl">
+                <div class="flex gap-4 pb-8">
+                    <img class="h-12 rounded-full"
+                        src="https://astrolus.netlify.app/images/avatars/avatar-4.webp"
+                        alt="">
+                    <div>
+                        <h1 class="font-bold text-xl">Rohit</h1>
+                        <p class="text-sm text-zinc-400 font-medium">Markting</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quia officiis veritatis temporibus cum expedita magni eaque! Fugiat ipsam dolorum expedita id est maiores fugit tempora quas maxime animi dolores distinctio qui quibusdam nobis ducimus non modi, quam.</p>
+            </div>
+            </section>
+            <section>
+                 <!--Here is the clients image section-->
+                <div class="flex mt-32 -space-x-2 overflow-hidden justify-center">
+                    <img class="h-12 rounded-full " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ0mSQZFBEVjYogvzVDROpc9xedSNj7nF1Lg&s" alt="">
+                    <img class="h-14 rounded-full r" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Virat_Kohli_portrait.jpg/966px-Virat_Kohli_portrait.jpg" alt="">
+                    <img class="h-16 rounded-full " src="https://d1hbpr09pwz0sk.cloudfront.net/profile_pic/rahul-baruri-a8c37276" alt="">
+                    <img class="h-14 rounded-full" src="https://astrolus.netlify.app/images/avatars/avatar-4.webp" alt="">
+                    <img class="h-12 rounded-full " src="https://astrolus.netlify.app/images/avatars/avatar-2.webp" alt="">
+                </div>
+                <div class="text-white text-center mt-10">
+                    <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl pb-5">Get started now</h1>
+                    <p class="text-lg text-zinc-300">Be part of millions people around the world using tailus in modern User Interfaces.</p>
+                    <div class="md:grid md:grid-cols-2 md:max-w-xl md:space-x-12 md:mx-auto mx-5 mt-6 ">
+                        <button class="bg-purple-700 hover:bg-purple-500 hover:text-black hover:scale-110 text-white font-medium text-lg px-5 py-2 rounded-2xl flex w-full justify-center mb-4">Get started</button>
+                        <button class="bg-teal-400 hover:bg-teal-200 hover:text-black hover:scale-110 text-white font-medium text-lg px-5 py-2 rounded-2xl flex w-full justify-center mb-4">Get started</button>
+                    </div>
+                </div>
+            </section>
+            <!--Latest articles section start-->
+            <section class="pb-6">
+                <div class="max-w-2xl mx-auto text-center text-white mt-24">
+                    <h1 class="text-4xl font-bold pb-5">Latest Articles</h1>
+                    <p class="text-zinc-200">Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia aliquid explicabo? Excepturi, voluptate?</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6  mx-8 mt-10">
+                    <div class="bg-white group rounded-2xl group p-10 hover:bg-black border-2">
+                        <img class="rounded-xl group-hover:scale-105" src="https://images.unsplash.com/photo-1661749711934-492cd19a25c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" alt="">
+                        <h1 class="pt-6 text-xl font-bold pb-5 group-hover:text-white">De fuga fugiat lorem ispum laboriosam expedita.</h1>
+                        <p class="text-zinc-700 group-hover:text-white">Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                        <button class="mt-9 text-blue-600">Read more</button>
+                    </div>
+                    <div class="bg-white group rounded-2xl group p-10 hover:bg-black border-2">
+                        <img class="rounded-xl group-hover:scale-105" src="https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" alt="">
+                        <h1 class="pt-6 text-xl font-bold pb-5 group-hover:text-white">De fuga fugiat lorem ispum laboriosam expedita.</h1>
+                        <p class="text-zinc-700 group-hover:text-white">Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                        <button class="mt-9 text-blue-600">Read more</button>
+                    </div>
+                    <div class="bg-white group rounded-2xl group p-10 hover:bg-black border-2">
+                        <img class="rounded-xl group-hover:scale-105" src="https://content.jdmagicbox.com/comp/def_content/badminton-courts/1-badminton-courts-1-m069r.jpg" alt="">
+                        <h1 class="pt-6 text-xl font-bold pb-5 group-hover:text-white">De fuga fugiat lorem ispum laboriosam expedita.</h1>
+                        <p class="text-zinc-700 group-hover:text-white">Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...</p>
+                        <button class="mt-9 text-blue-600">Read more</button>
+                    </div>
+                </div>
+            </section><hr>
+            <footer class="mt-16 mb-16"> 
+                <div class="text-white grid md:grid-cols-2 lg:grid-cols-3 max-w-6xl gap-6 md:mx-auto px-12">
+                    <div>
+                        <h1 class="text-2xl font-semibold">THINK<sup class="text-pink-400">3<sup>2</sup> </sup></h1>
+                        <p>Thoughtful markting for growing dental pratices.</p>
+                    </div>
+                    <div>
+                        <p>DENTAL MARKETING INSIGHTS FOR CLEVER DENTIST DIRECT TO YOUR INBOX</p>
+                        <input class="py-2 px-4 w-52 mt-3 border bg-slate-900" type="text" placeholder="Your e-mail"> <button class="bg-pink-300 hover:bg-pink-500 hover:scale-105 px-7 py-2 text-white font-medium ml-3 rounded-md">Submit</button>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-xl">Contuct Us</h1>
+                        <p>Email: joybaidyabd@gmail.com</p>
+                        <p>Phone: 01781785236</p>
+                        <p>Address: Mirpur, Dhaka, Bangladesh.</p>
+                    </div>
+                </div>
+            </footer><hr>
+            <div class="text-white font-bold text-2xl text-center mt-4 mb-4">
+                <p>&copy; Develop by Joy 2024</p>
+            </div><hr>
+        <script src="javascript.js"> </script>
+</body>
+
+</html>
